@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TD1</string>
+    <string name="nom">Entrer votre nom</string>
+    <string name="prenom">Entrer votre prénom</string>
+    <string name="age">Entrer votre age</string>
+    <string name="domaine">Entrer votre domaine</string>
+    <string name="tel">Entrer votre num de téléphone</string>
+    <string name="pop_up">Les informations sont correct ?</string>
+    <string name="confirm">Accepter</string>
+    <string name="cancel">Refuser</string>
+    <string name="msg">Les informations saisies sont-elles correct ?</string>
+    <string name="bravo">Inscription validé !</string>
+</resources>

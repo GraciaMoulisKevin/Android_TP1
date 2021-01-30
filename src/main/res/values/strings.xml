@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TD1</string>
+    <string name="nom">Enter your surname</string>
+    <string name="prenom">Enter your name</string>
+    <string name="age">Enter your age</string>
+    <string name="domaine">Enter your domain</string>
+    <string name="tel">Enter your phone number</string>
+    <string name="pop_up">Information are correct ?</string>
+    <string name="confirm">Accept</string>
+    <string name="cancel">Refuse</string>
+    <string name="msg">Information are correct?</string>
+    <string name="bravo">Inscription completed !</string>
+</resources>
