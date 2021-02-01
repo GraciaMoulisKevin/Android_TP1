@@ -30,9 +30,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Début exo 6
-        //Intent intent = new Intent(MainActivity.this, td1_1.class);
-
         setContentView(R.layout.activity_main);
         text = (TextView) findViewById(R.id.activity_main_txt);
         edit_nom = (EditText) findViewById(R.id.edit_nom);
@@ -70,6 +67,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(DialogInterface dialog, int which) {
                 // En cas d'acceptation de la pop up
                 Intent apresFormulaire = new Intent(MainActivity.this, td1_1.class);
+
+                apresFormulaire.putExtra("NOM",edit_nom.getText().toString());
+                apresFormulaire.putExtra("PRENOM",edit_prenom.getText().toString());
+                apresFormulaire.putExtra("AGE",edit_age.getText().toString());
+                apresFormulaire.putExtra("COMPETENCE",edit_competence.getText().toString());
+                apresFormulaire.putExtra("TELEPHONE",edit_tel.getText().toString());
+
                 startActivity(apresFormulaire);
             }
         });

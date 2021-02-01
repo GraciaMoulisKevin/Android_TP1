@@ -8,19 +8,40 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/activity_game_question_text"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        android:textColor="@android:color/holo_blue_dark"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:text="@string/bravo"></TextView>
+        android:id="@+id/activity_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:text="Exercice 6"
+        />
 
+    <TextView
+        android:id="@+id/activity_intent_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/activity_ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="OK" />
+
+    <Button
+    android:id="@+id/activity_return_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:padding="30dp"
+    android:layout_gravity="center_horizontal"
+    android:text="@string/retour" />
 
 </LinearLayout>

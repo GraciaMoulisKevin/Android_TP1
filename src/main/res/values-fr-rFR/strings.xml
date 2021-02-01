@@ -11,4 +11,5 @@
     <string name="cancel">Refuser</string>
     <string name="msg">Les informations saisies sont-elles correct ?</string>
     <string name="bravo">Inscription validé !</string>
+    <string name="retour">Retour</string>
 </resources>
